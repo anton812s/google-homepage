@@ -1,0 +1,49 @@
+html {
+  font-family: arial;
+
+}
+.logo {
+  display: block;
+}
+.navigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: green;
+  height: 40px;
+  display: block;
+  margin-bottom: 10px;
+}
+.nav-button {
+  height: 30px;
+  widht: 80px;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 1px;
+  border: none;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  height: 40px;
+  padding: 10px;
+  bottom: 0;
+  display: block;
+  background-color: red;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.left {
+  float: left;
+}
+.rigt {
+  float: right;
+}
