@@ -1,49 +1,67 @@
-
-
+* {
+    box-sizing: border-box;
+}
 html {
   font-family: arial;
-
+}
+a {
+  text-decoration: none;
+  color: #757575;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
 }
 .logo {
   margin: auto;
   display: block;
-  width: 20%
+  width: 20%;
+  padding-top: 200px;
 }
 .navigation {
-  position: relative;
-  right: 0;
-  top: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: green;
-  display: block;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  float: right;
 }
 .nav-button {
   height: 30px;
-  widht: 80px;
   padding: 10px;
   color: white;
   background-color: blue;
-  border-radius: 1px;
+  border-radius: 5px;
   border: none;
 }
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  display: block;
-  background-color: red;
+div.buttons {
+    text-align: center;
 }
-a {
-  text-decoration: none;
-  color: black;
+.button {
+    background-color: #f2f2f2;
+    border: white;
+    color: #757575;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 5px;
+    width: 20%;
+}
+.button:hover {
+    border: gray;
+    color: black;
+}
+.footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
 .left {
   float: left;
 }
-.rigt {
+.right {
   float: right;
 }
